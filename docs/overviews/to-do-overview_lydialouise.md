@@ -65,7 +65,7 @@ Stay on track with automatic notifications.
 
 ## Learn more
 
-Already an existing user? Dive into detailed endpoints with the [API reference →](../api/).
+Already an existing user? Dive into detailed endpoints with the [API reference →](../index.md#api-reference-docs).
 
 ---
 
