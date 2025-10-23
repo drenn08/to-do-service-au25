@@ -4,44 +4,50 @@
 
 ## cURL
 
-Get user 1 with cURL.
+Get cat 1 with cURL.
 
 ### Command
 
 ```shell
-curl http://localhost:3000/users/1
+curl http://localhost:3000/cats/1
 ```
 
 ### cURL response
 
 ```json
 {
-  "lastName": "Smith",
-  "firstName": "Ferdinand",
-  "email": "f.smith@example.com",
-  "id": 1
+  "id": "1", 
+  "catName": "Bebe",
+  "breed": "American Domestic Shorthair",
+  "color": "Orange-Tuxedo",
+  "age": 5,
+  "weight": 11,
+  "favorite_snack": "Chicken"
 }
 ```
 
 ## Postman example
 
-Get user 2 with Postman.
+Get cat 2 with Postman.
 
 ### Request
 
 **Method**: GET
 
 ```shell
-http://localhost:3000/users/2
+http://localhost:3000/cats/2
 ```
 
 ### Postman response
 
 ```json
 {
-    "lastName": "Jones",
-    "firstName": "Jill",
-    "email": "j.jones@example.com",
-    "id": 2
+  "id": "2", 
+  "catName": "Milhouse",
+  "breed": "American Domestic Shorthair",
+  "color": "Grey-Tuxedo",
+  "age": 2,
+  "weight": 10,
+  "favorite_snack": "Rabbit"
 }
 ```
