@@ -28,7 +28,7 @@ last_updated: "2025-10-24"
 # markdownlint-enable
 ---
 
-# To-Do Service API overview
+# To-Do Service API (RentsV)
 
 To-Do Service API is a mock REST API that simulates a to-do app.
 This app allows you to stay on top of your obligations. You can see, add, change, and delete tasks.
