@@ -25,7 +25,7 @@ curl http://localhost:3000/users/3
 
 ## Postman example
 
-The Postman example provided in the Assignment 5.3 demo.
+This example shows how to retrieve all task ID 3 from the To-Do Service API using Postman.
 
 ### Request
 
