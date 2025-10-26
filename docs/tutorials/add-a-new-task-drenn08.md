@@ -94,4 +94,4 @@ None.
 
 ## Related Topics
 
-[Tutorial: Enrolle a new user](https://uwc2-apidoc.github.io/to-do-service-au25/tutorials/enroll-a-new-user/)
+[Tutorial: Enroll a new user](https://uwc2-apidoc.github.io/to-do-service-au25/tutorials/enroll-a-new-user/)
