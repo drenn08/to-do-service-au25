@@ -4,7 +4,7 @@
 
 ## cURL example
 
-The cURL example provided in the Assignment 5.3 demo.
+This example retrieves task ID 3 from the To-Do Service API using cURL.
 
 ### cURL command
 
@@ -14,7 +14,7 @@ curl http://localhost:3000/users/3
 
 ### cURL response
 
-```shell
+```json
 {
   "lastName": "Martinez",
   "firstName": "Marty",
@@ -37,7 +37,7 @@ GET http://localhost:3000/tasks/3
 
 ### Postman response
 
-```shell
+```json
 {
     "userId": 2,
     "title": "Oil change",
