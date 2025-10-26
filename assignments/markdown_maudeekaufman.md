@@ -73,4 +73,3 @@ Tables
 Lists (bulleted and numbered)
 Links
 Blockquotes
-
