@@ -36,8 +36,8 @@ Base endpoint:
 
 Contains information about tasks stored for the users of the service.
 
-To have a task in the service, the user must be added to
-the service first. Learn more about the [user resource](user.md).
+To have a task in the service, the user must already exist in the system.
+Learn more about the [user resource](user.md).
 
 ## Resource properties
 
@@ -57,14 +57,14 @@ Sample `task` resource
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `userId` | number | The ID of the user resource to which this task is assigned |
-| `title` | string | The title or short description of the task |
-| `description` | string | The long description of the task|
-| `dueDate` | string | The [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format of the date and time the task is due |
-| `warning` | number | The number of minutes before the `dueDate` to alert the user of the task. This must be a positive integer.|
+| `userId` | number | ID of the user resource responsible for this task |
+| `title` | string | Title or short description of the task |
+| `description` | string | Long description of the task|
+| `dueDate` | string | [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format of the date and time the task is due |
+| `warning` | number | Number of minutes before the `dueDate` to alert the user (positive integer). |
 | `id` | number | The task's unique record ID |
 
-## READ
+## Operations
 
 * [Post tasks](https://github.com/drenn08/to-do-service-au25/blob/Assignment-6.3/docs/post-tasks.md)
 * [Get all tasks _(coming soon)_](#resource-properties)
@@ -74,3 +74,4 @@ Sample `task` resource
 ## Tutorials
 
 * [Get task by user ID](../tutorials/get-tasks-assigned-to-a-userid.md)
+* [Delete a task](tasks-delete-task-by-id.md)
