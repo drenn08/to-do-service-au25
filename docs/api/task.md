@@ -66,6 +66,7 @@ Sample `task` resource
 
 ## READ
 
+* [Post tasks](https://github.com/drenn08/to-do-service-au25/blob/Assignment-6.3/docs/post-tasks.md)
 * [Get all tasks _(coming soon)_](#resource-properties)
 * [Get task by ID _(coming soon)_](#resource-properties)
 * [Get task by user ID _(coming soon)_](#resource-properties)
