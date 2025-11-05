@@ -34,7 +34,7 @@ GET Request to return information about the resource music
 **GET**:
 
 ```shell
-{{baseUrl}}/music
+{http://localhost:3000}}/music
 ```
 
 ### Postman response
